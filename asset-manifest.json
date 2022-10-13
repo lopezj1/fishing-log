@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fishing-log/static/css/main.e6c13ad2.css",
+    "main.js": "/fishing-log/static/js/main.d5890dd9.js",
+    "static/js/787.f9d014fd.chunk.js": "/fishing-log/static/js/787.f9d014fd.chunk.js",
+    "index.html": "/fishing-log/index.html",
+    "main.e6c13ad2.css.map": "/fishing-log/static/css/main.e6c13ad2.css.map",
+    "main.d5890dd9.js.map": "/fishing-log/static/js/main.d5890dd9.js.map",
+    "787.f9d014fd.chunk.js.map": "/fishing-log/static/js/787.f9d014fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d5890dd9.js"
+  ]
+}
