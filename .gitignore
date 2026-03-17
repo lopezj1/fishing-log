@@ -1,0 +1,9 @@
+.env
+data/fishing_log.db
+data/fits/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.venv/
+reports/*.csv

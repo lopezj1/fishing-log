@@ -1,0 +1,25 @@
+[project]
+name = "fishing-log"
+version = "0.1.0"
+description = "Personal saltwater fishing log — Garmin FIT ingestion, environmental enrichment, catch rate analysis"
+requires-python = ">=3.11"
+dependencies = [
+    "ephem>=4.2.1",
+    "garmin-fit-sdk>=21.195.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.32.5",
+    "timezonefinder>=8.2.1",
+]
+
+[project.scripts]
+fishing-log = "cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+
+[tool.setuptools]
+py-modules = ["cli", "config"]
